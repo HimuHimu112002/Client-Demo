@@ -1,0 +1,95 @@
+.mvp--card img{
+    width: 100%;
+    height: 50px;
+}
+  
+.mvp--section{
+    margin-right: 10px;
+    padding: 45px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+    position: relative;
+}
+
+/* .mvp--section:hover{
+    background-color: #E8ECFF;
+} */
+  
+.mvp--section__content h5{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 17px;
+    color: #505469;
+    letter-spacing: -.5px;
+    width: 100%;
+}
+
+.mvp--main--section{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.mvp--button{
+    width: 400px;
+   display: flex;
+   margin-right: 650px;
+}
+
+.mvp--arrowIcon--section{
+    margin-left: 25px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mvp--arrowIcon__left, .mvp--arrowIcon__right{
+    cursor: pointer;
+}
+
+.mvp--heading, .mvp--Subheading{
+    font-size: 33px;
+    font-family: Open Sans;
+    color: #171727;
+    font-weight: 700;
+}
+
+/* .mvp--Subheading{
+    color: #747482;
+    font-weight: 400;
+} */
+
+.mvp--section .tick{
+    /* display: none; */
+    position: absolute;
+    top: 15px;
+    right:15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 28px;
+    background: hsla(0,0%,100%,.95);
+    box-shadow: 0 0 1px rgba(0,0,0,.18), 0 2px 2px rgba(0,0,0,.16);
+}
+
+/* .mvp--section::selection .tick{
+    background-color: #747482;
+    display: block;
+}
+.mvp--section::selection{
+    background-color: #747482;
+} */
+/* .mvp--section .tick:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin-left: -7px;
+    margin-top: -5px;
+    width: 14px;
+    height: 11px;
+} */

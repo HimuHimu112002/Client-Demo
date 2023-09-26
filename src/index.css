@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #FBFBFB;
+}
+
+/* ======================== Home page design start ====================== */
+
+.Logo{
+  padding: 8px 10px 8px 0;
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1em;
+  letter-spacing: -.05em;
+  color: #674FFA;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.Logo span{
+  color: #dbdbdb;
+  font-size: 13px;
+  margin-left: 3px;
+}
+
+.Logo__border{
+  width: 45px;
+  height: 3px;
+  background-color: #674FFA;
+}
+.Home--left--section{
+  margin-left: 100px;
+}
+
+.Home--left--section__heading{
+  color: #171727;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.Home--left--section__subHeadingOne, .Home--left--section__subHeadingTwo{
+  font-family: 'Roboto', sans-serif;
+  width: 450px;
+  margin-top: 70px;
+  font-size: 18px;
+  color: #747482;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.Home--left--section__subHeadingTwo{
+  margin-top: 40px;
+}
+
+.Home--left--section__button{
+  background: -webkit-linear-gradient(315deg, hsla(229, 82%, 59%, 1) 0%, hsla(274, 88%, 55%, 1) 60%);
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  padding: 12px 35px 13px;
+  min-width: 202px;
+  color: #fff!important;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6em;
+  text-align: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.Home--left--section--button__icon{
+  font-size: 23px;
+}
+
+.Home--left--section__socialISection, .Home--left--section__aboutAndPrivacy{
+  display: flex;
+  color: white;
+}
+.Home--left--section__socialIconOne{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A1C7F8;
+  width: 80px;
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.Home--left--section__socialIconPosition{
+  margin-right: 5px;
+}
+
+.Home--left--section__aboutAndPrivacy{
+  color: #dad8e2;
+}
+.Home--left--section__AboutUs, .Home--left--section__PrivacyPolicy{
+  font-family: 'Roboto', sans-serif;
+  margin-right: 10px;
+  transition: .4s all ease-in-out;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.Home--left--section__AboutUs:hover, .Home--left--section__PrivacyPolicy:hover{
+  color: #9e9e9e;
+}
+
+.Svg{
+  /* background-image: url('../public/svglogo.svg');
+  background-position: center;
+  background-repeat: no-repeat; */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.video-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ======================== Home page design end ====================== */
