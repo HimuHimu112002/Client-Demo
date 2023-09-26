@@ -1,12 +1,11 @@
 import React from 'react'
 import Rootcomponents from './src/components/Rootcomponents';
 import Home from './src/pages/Home'
-import MvpType from './src/pages/MVP/mvpType';
+import MvpType from './src/pages/MVP/MvpType';
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
-  Link,
   createRoutesFromElements,
 } from "react-router-dom";
 
