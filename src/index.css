@@ -128,3 +128,9 @@ body{
 }
 
 /* ======================== Home page design end ====================== */
+.progressBar{
+  width: 100%;
+  position: absolute;
+  top: -160px;
+  left: 0;
+}

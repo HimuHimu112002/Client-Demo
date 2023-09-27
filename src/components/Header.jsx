@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const Header = () => {
   return (
+    <div>
     <Container>
         <Row>
             <Col>
@@ -12,6 +13,7 @@ const Header = () => {
             </Col>
         </Row>
     </Container>
+    </div>
   )
 }
 

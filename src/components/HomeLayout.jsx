@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap'
-import { BsArrowRight } from 'react-icons/bs';
 import { FaFacebook } from 'react-icons/fa';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { Link, Outlet } from 'react-router-dom';
@@ -9,6 +8,7 @@ import { Link, Outlet } from 'react-router-dom';
 // import home2 from '../../public/image/home2.gif'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import MainButton from './MainButton';
 const HomeLayout = () => {
   useEffect(()=>{
     AOS.init({duration: 1000})
@@ -28,10 +28,10 @@ const HomeLayout = () => {
 
             <p className='Home--left--section__subHeadingTwo'>We have created this handy cost calculator just for you. Find out how much your prototype will cost in 2 mins.</p>
 
+            
             <Link to="/mvp-type">
-              <Button className='Home--left--section__button rounded-pill mt-4'>Let's get started<BsArrowRight className='Home--left--section--button__icon mx-2'></BsArrowRight></Button>
+              <MainButton></MainButton>
             </Link>
-              
 
             <div className='Home--left--section__socialISection mt-5'>
               <div className='Home--left--section__socialIconOne rounded py-1'><FaFacebook className='Home--left--section__socialIconPosition'></FaFacebook> Share</div>

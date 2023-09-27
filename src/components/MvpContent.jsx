@@ -1,13 +1,11 @@
 /* eslint-disable react/prop-types */
-import React, { useState, useEffect } from 'react';
-import { Col, Container, Row,Button } from 'react-bootstrap'
+import React, {useEffect } from 'react';
+import { Col, Container, Row} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import { BiArrowBack } from 'react-icons/bi';
-import { BsArrowLeft,BsArrowRight } from 'react-icons/bs';
 import { PiArrowElbowRightThin } from 'react-icons/pi';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ArrowButton from './ArrowButton';
 
 const MvpContent = (props) => {
     useEffect(()=>{
@@ -56,24 +54,9 @@ const MvpContent = (props) => {
             </Col>
 
             <div className='mvp--button mt-5'>
-
-                <Link to="/">
-                    <Button className='Home--left--section__button rounded-pill mt-4'><BiArrowBack className='Home--left--section--button__icon mx-2'></BiArrowBack>Previous</Button>
-                </Link>
-
-                <div className='mvp--arrowIcon--section'>
-                    <Link to="/">
-                        <div className='mvp--arrowIcon__left m-3 shadow py-2 px-3 rounded'>
-                            <BsArrowLeft className='arrow--iconOne'></BsArrowLeft>
-                        </div>
-                    </Link>
-
-                    <div className='mvp--arrowIcon__right shadow py-2 px-3 rounded'>
-                        <BsArrowRight></BsArrowRight>
-                    </div>
-
-                </div>
+                <ArrowButton></ArrowButton>
             </div>
+            
         </Row>
     </Container>
   )
